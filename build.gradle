@@ -4,7 +4,7 @@ apply plugin: 'java'
 sourceSets {
     main {
         resources {
-            srcDir = "."
+            srcDirs = ["."]
             include "**"
             exclude ".gitignore", ".github/**"
         }
