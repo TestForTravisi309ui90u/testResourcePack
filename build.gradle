@@ -6,7 +6,7 @@ sourceSets {
         resources {
             srcDirs = ["."]
             include "**"
-            exclude ".gitignore", ".github/**", "build", ".gradle", "README.md", "local.properties", "*.gradle"
+            exclude ".gitignore", ".github", "build", ".gradle", "README.md", "local.properties", "*.gradle"
         }
    }
 }
