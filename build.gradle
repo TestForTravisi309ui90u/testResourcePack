@@ -4,8 +4,8 @@ apply plugin: 'java'
 sourceSets {
     main {
         resources {
-            srcDirs = ["**"]
-            include "**"
+            srcDirs = ["."]
+            include "**", "*/**"
             exclude ".gitignore", ".github/**", "build", ".gradle", "README.md", "local.properties", "*.gradle"
         }
    }
